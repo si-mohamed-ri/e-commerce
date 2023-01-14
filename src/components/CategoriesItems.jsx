@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Container = styled.div`
    flex: 1;
    margin: 4px;
-   height: 70vh;
+   height: 50vh;
    position: relative;
 `;
 
@@ -27,10 +27,19 @@ const InfoContainer = styled.div`
     justify-content: center;
 `;
 
-const Titel = styled.h1``;
+const Titel = styled.h1`
+    color: white;
+    margin-bottom: 20px;
+`;
 
 const Button = styled.button`
-  
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: white;
+    color: gray;
+    font-size: 15px;
 `;
 
 const CategoriesItems = ({item}) => {
