@@ -1,52 +1,16 @@
-.fletter {
+// filter Style
+.Category {
   display: flex;
-  height: 40px;
-  width: 100%;
-  margin-left: 2rem;
-  border: 1px solid #c0c0cc;
-  width: 35%;
-  border-radius: 15px;
-  color: #c0c0cc;
-  align-items: center;
-  justify-content: flex-end;
-  cursor: pointer;
-
-  h1 {
-    font-size: 15px;
-    flex: 3;
-  }
-
-  .IconMore {
-    cursor: pointer;
-  }
 }
-.CategorieList {
-  position: absolute;
-  width: 35%;
-  background-color: #c5c6c7;
-  z-index: 99;
-  margin-left: 2rem;
-  border-radius: 10px;
-  margin-top: 0.5rem;
-
-  .ListItems {
-    list-style: none;
-    padding: 1rem;
-
-    .Items {
-      margin-bottom: 2rem;
-      margin-left: 1rem;
-      cursor: pointer;
-      height: 4rem;
-      display: flex;
-      align-items: center;
-      border-radius: 10px;
-      justify-content: center;
-
-      &:hover {
-        background-color: #6a7777;
-      }
-    }
+.filter {
+  padding: 1rem;
+ 
+  
+  .filter-content {
+    border: 1px solid gray;
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
   }
 }
 
