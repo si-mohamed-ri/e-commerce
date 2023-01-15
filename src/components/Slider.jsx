@@ -57,6 +57,8 @@ const Image = styled.img`
   height: 80%;
   margin-top: 50px;
   border-radius: 30px;
+  user-drag: none;
+  user-select: none;
 `;
 
 const InfoContainer = styled.div`

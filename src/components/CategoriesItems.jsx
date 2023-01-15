@@ -1,12 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const Container = styled.div`
    flex: 1;
    margin: 4px;
-   height: 50vh;
+   height: 30vh;
    position: relative;
 `;
+
+
 
 const Image = styled.img`
     width: 100%;

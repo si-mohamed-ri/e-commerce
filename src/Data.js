@@ -69,8 +69,8 @@ export const sliderItems = [
     },
     {
       id: 4,
-      img: "https://images.jackjones.com/12217183/3983840/004/jackjones-windbreaker-jakkemedhaette-roed.jpg?v=7dee161d53a5dca3f081f1335a89900f&width=600&quality=80",
-      title: "LIGHT JACKETS",
+      img: "https://images.jackjones.com/12177644/3422283/003/jackjones-woolcoat-grey.jpg?v=4b656f54fb7d44952634907aec1c94cc&width=1024&quality=90",
+      title: "WOOL COAT",
     },
     {
       id: 5,
@@ -82,6 +82,7 @@ export const sliderItems = [
       img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       title: "LIGHT JACKETS",
     },
+   
   ];
 
   export const popularProducts = [
