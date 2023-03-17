@@ -20,7 +20,7 @@ const FilterCategories = () => {
         
       </div>
       <div className="Category">
-      <h2>{val}</h2>
+      {/* <h2>{val}</h2> */}
     </div>
     </>
   );

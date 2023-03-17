@@ -6,6 +6,10 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: #f1f1f1;
 `;
 
 const Wrapper = styled.div`
@@ -37,6 +41,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
 	border: none;
+  background-color: #f1f1f1;
 	margin-top: -1px;
   &:focus {
         outline: none;

@@ -10,6 +10,9 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 `
 
 const Announcment = () => {

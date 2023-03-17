@@ -48,8 +48,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="copyright">&copy;By Mrami</div>
         </div>
+          <div className="copyright">&copy;By Mrami</div>
       </div>
     </>
   );
